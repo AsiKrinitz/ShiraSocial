@@ -1,0 +1,60 @@
+.home-page .mesh-bg {
+  background: radial-gradient(circle at 20% 20%, #ff85a2, transparent),
+              radial-gradient(circle at 80% 80%, #ffb7c5, transparent),
+              radial-gradient(circle at 50% 50%, #f7cad0, transparent);
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.image-container {
+  margin-bottom: 2rem;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 0%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.intro-section h2 {
+  color: #d81b60;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.highlight-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.description-block p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .intro-section h2 {
+    font-size: 2rem;
+  }
+  
+  .highlight-text {
+    font-size: 1.2rem;
+  }
+}

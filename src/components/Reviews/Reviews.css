@@ -1,0 +1,9 @@
+.reviews-page .mesh-bg {
+  background: radial-gradient(circle at 20% 20%, #f093fb, transparent),
+              radial-gradient(circle at 80% 80%, #f5576c, transparent),
+              radial-gradient(circle at 50% 50%, #fdfcfb, transparent);
+}
+
+.reviews-page h1 {
+  color: #ef6c00;
+}

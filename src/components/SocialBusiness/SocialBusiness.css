@@ -1,0 +1,9 @@
+.business-page .mesh-bg {
+  background: radial-gradient(circle at 20% 20%, #43e97b, transparent),
+              radial-gradient(circle at 80% 80%, #38f9d7, transparent),
+              radial-gradient(circle at 50% 50%, #667eea, transparent);
+}
+
+.business-page h1 {
+  color: #2e7d32;
+}

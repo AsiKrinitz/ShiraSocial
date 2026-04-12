@@ -1,0 +1,14 @@
+.footer {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  text-align: center;
+  z-index: 10;
+}
+
+.footer-content p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}

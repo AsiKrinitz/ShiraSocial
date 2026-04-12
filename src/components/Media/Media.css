@@ -1,0 +1,46 @@
+.media-page .mesh-bg {
+  background: radial-gradient(circle at 20% 20%, #2193b0, transparent),
+              radial-gradient(circle at 80% 80%, #6dd5ed, transparent),
+              radial-gradient(circle at 50% 50%, #e0eafc, transparent);
+}
+
+.media-content {
+  text-align: right;
+  direction: rtl;
+}
+
+.media-content h2 {
+  color: #0277bd;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.media-story h3 {
+  color: #01579b;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.media-story p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.video-placeholder {
+  margin-top: 3rem;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed rgba(1, 87, 155, 0.2);
+}
+
+.placeholder-box {
+  color: #01579b;
+  font-weight: bold;
+}

@@ -1,0 +1,9 @@
+.shows-page .mesh-bg {
+  background: radial-gradient(circle at 20% 20%, #f6d365, transparent),
+              radial-gradient(circle at 80% 80%, #fda085, transparent),
+              radial-gradient(circle at 50% 50%, #fccb90, transparent);
+}
+
+.shows-page h1 {
+  color: #f57f17;
+}

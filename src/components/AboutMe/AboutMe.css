@@ -1,0 +1,74 @@
+.about-page .mesh-bg {
+  background: radial-gradient(circle at 20% 20%, #a18cd1, transparent),
+              radial-gradient(circle at 80% 80%, #fbc2eb, transparent),
+              radial-gradient(circle at 50% 50%, #e0c3fc, transparent);
+}
+
+.about-content {
+  text-align: right;
+  direction: rtl;
+}
+
+.about-content h2 {
+  color: #6a1b9a;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgba(106, 27, 154, 0.1);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.passion-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.brands-section {
+  margin: 3rem 0;
+}
+
+.brands-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+}
+
+.brand-tag {
+  background: rgba(106, 27, 154, 0.1);
+  color: #6a1b9a;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid rgba(106, 27, 154, 0.2);
+}
+
+.process-section ul {
+  list-style-type: "✨ ";
+  padding-right: 20px;
+}
+
+.process-section li {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.divider {
+  margin: 3rem 0;
+  border: none;
+  border-top: 1px solid rgba(106, 27, 154, 0.2);
+}
+
+.media-section-inline h2 {
+  color: #0277bd;
+}
+
+.media-section-inline p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
