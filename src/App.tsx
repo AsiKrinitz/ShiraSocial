@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ShiraSocial">
       <div className="app-container">
         <Navbar />
         <main className="content">
