@@ -15,7 +15,6 @@
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
-  direction: rtl;
 }
 
 .contact-image-side {
@@ -42,24 +41,29 @@
 
 .contact-info-side {
   flex: 1;
-  text-align: right;
+  text-align: start;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
 .contact-title {
-  font-size: 2.2rem !important;
-  color: #c62828 !important;
+  font-size: 2.8rem !important;
+  background: linear-gradient(135deg, #a71d1d 0%, #d32f2f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 0 !important;
-  line-height: 1.2;
-  font-weight: 800;
+  line-height: 1.1;
+  font-weight: 900;
+  letter-spacing: -1px;
 }
 
 .contact-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #555;
-  margin-bottom: 1rem;
+  margin: 0;
+  font-weight: 500;
+  margin-top: -0.5rem;
 }
 
 .contact-links {
@@ -77,15 +81,21 @@
   border-radius: 12px;
   transition: transform 0.3s;
   border: 1px solid rgba(198, 40, 40, 0.1);
+  text-decoration: none;
+  color: inherit;
 }
 
 .contact-item:hover {
-  transform: translateX(-5px);
+  transform: translateX(5px);
   background: rgba(255, 255, 255, 0.8);
 }
 
-.contact-item .icon {
+.contact-item .icon,
+.contact-icon-img {
   font-size: 1.8rem;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 .contact-text {

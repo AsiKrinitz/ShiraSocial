@@ -1,10 +1,12 @@
 import './AboutMe.css';
+import shiraOnTv from '../../images/shiraOnTv.jpeg';
 
 const AboutMe = () => {
   const brands = [
     "il makiage", "L’Oréal", "MAYBELINE", "garnier", "cerave", "Amika", "esssie", "MAC", "Sacara", 
     "dream laser", "intuition", "gaya cosmetics", "wolt", "tarantula jewelry", "origins", 
-    "pink lady", "bunny Tami", "nyx", "studio pasha", "argania", "קניוני עופר", "vichy"
+    "pink lady", "bunny Tami", "nyx", "studio pasha", "argania", "קניוני עופר", "vichy",
+    "American laser", "La Roche Posay", "Mad perfume"
   ];
 
   return (
@@ -52,11 +54,14 @@ const AboutMe = () => {
         <section className="media-section-inline">
           <h2>שירה בתקשורת - חדשות 13</h2>
           <p>
-            בעקבות סרטון טיקטוק ויראלי שיצרתי, פנו אליי מחדשות 13 והזמינו אותי להשתתף בכתבה בנושא איפור וטיפוח ממותג SHEIN.
+            הייתה לי הזכות להתארח ולהתראיין בחדשות 13, שם שיתפתי על הדרך שלי כיוצרת תוכן ועל עולם ה-UGC בישראל.
           </p>
           <p>
             הסרטון עורר עניין רחב ברשתות ואף היווה השראה לתוכן הכתבה, תוך שהוא מביא זווית חדשה ורעננה גם לצופים וגם לעולם החדשות.
           </p>
+          <div className="tv-image-container">
+            <img src={shiraOnTv} alt="שירה יחזקאל בחדשות 13" className="tv-image" />
+          </div>
         </section>
       </div>
     </div>

@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className={`nav-links ${isOpen ? 'active' : ''}`}>
           <Link to="/" onClick={closeMenu}>עמוד הבית</Link>
           <Link to="/about" onClick={closeMenu}>קצת עליי</Link>
-          <Link to="/manage" onClick={closeMenu}>ניהול סושיאל</Link>
+          <Link to="/manage" onClick={closeMenu}>ניהול סושיאל / UGC</Link>
           <Link to="/business" onClick={closeMenu}>סושיאל לעסקים</Link>
           <Link to="/shows" onClick={closeMenu}>סושיאל הופעות</Link>
           <Link to="/reviews" onClick={closeMenu}>המלצות</Link>

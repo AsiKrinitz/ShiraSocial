@@ -8,11 +8,14 @@ import SocialBusiness from './components/SocialBusiness/SocialBusiness';
 import SocialShows from './components/SocialShows/SocialShows';
 import ContactMe from './components/ContactMe/ContactMe';
 import Reviews from './components/Reviews/Reviews';
+import NotFound from './components/NotFound/NotFound';
 import './App.css';
 
 function App() {
+  const basename = import.meta.env.MODE === 'production' ? '/ShiraSocial' : '';
+
   return (
-    <Router basename="/ShiraSocial">
+    <Router basename={basename}>
       <div className="app-container">
         <Navbar />
         <main className="content">
@@ -24,6 +27,7 @@ function App() {
             <Route path="/shows" element={<SocialShows />} />
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/contact" element={<ContactMe />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
