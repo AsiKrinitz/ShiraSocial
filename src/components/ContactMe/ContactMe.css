@@ -92,10 +92,15 @@
 
 .contact-item .icon,
 .contact-icon-img {
-  font-size: 1.8rem;
-  width: 32px;
-  height: 32px;
+  font-size: 2.2rem;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon-img.tiktok-icon {
+  transform: scale(2.5); /* Slightly more boost for TikTok */
 }
 
 .contact-text {

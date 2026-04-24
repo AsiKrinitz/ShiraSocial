@@ -2,6 +2,7 @@ import './ContactMe.css';
 import contactImage from '../../images/ContactMeImage.jpeg';
 import fbLogo from '../../images/Facebook_logo.png';
 import igLogo from '../../images/Instagram_logo.png';
+import ttLogo from '../../images/TikTok-Logo.png';
 
 const ContactMe = () => {
   return (
@@ -29,7 +30,7 @@ const ContactMe = () => {
               </a>
 
               <a href="https://www.tiktok.com/@shirayechezkel?_t=8mkalF3D9Y0&_r" target="_blank" rel="noopener noreferrer" className="contact-item">
-                <span className="icon">📱</span>
+                <img src={ttLogo} alt="TikTok" className="contact-icon-img tiktok-icon" />
                 <div className="contact-text">
                   <span className="label">TikTok:</span>
                   <span className="value">shirayechezkel</span>
