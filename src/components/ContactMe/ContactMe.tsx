@@ -41,7 +41,7 @@ const ContactMe = () => {
                 <img src={fbLogo} alt="Facebook" className="contact-icon-img" />
                 <div className="contact-text">
                   <span className="label">Facebook:</span>
-                  <span className="value">shira.yechezkel</span>
+                  <span className="value">shira yechezkel</span>
                 </div>
               </a>
 

@@ -9,6 +9,7 @@ import SocialShows from './components/SocialShows/SocialShows';
 import ContactMe from './components/ContactMe/ContactMe';
 import Reviews from './components/Reviews/Reviews';
 import NotFound from './components/NotFound/NotFound';
+import { AsiFooter } from './components/AsiFooter/AsiFooter';
 import './App.css';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <AsiFooter />
       </div>
     </Router>
   );

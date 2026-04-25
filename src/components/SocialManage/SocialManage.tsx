@@ -24,9 +24,10 @@ const SocialManage = () => {
               <video 
                 controls 
                 playsInline
-                preload="metadata"
+                muted
+                preload="auto"
                 className="manage-video"
-                src={video.src}
+                src={`${video.src}#t=0.001`}
               >
                 Your browser does not support the video tag.
               </video>
