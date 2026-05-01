@@ -3,10 +3,8 @@ import './SocialShows.css';
 const SocialShows = () => {
   const baseUrl = import.meta.env.BASE_URL;
   const videos = [
-    { id: 1, src: `${baseUrl}videos/MOVIE1BenZur.MOV`, title: 'בן צור' },
-    { id: 2, src: `${baseUrl}videos/MOVIE2OsherCohen.MOV`, title: 'אושר כהן' },
-    { id: 3, src: `${baseUrl}videos/MOVIE3Ravid.MOV`, title: 'רביד פלוטניק' },
-    { id: 4, src: `${baseUrl}videos/MOVIE4Liran.MOV`, title: 'לירן דנינו' },
+    { id: 1, src: `${baseUrl}videos/MOVIE3Ravid.MOV`, title: 'רביד פלוטניק' },
+    { id: 2, src: `${baseUrl}videos/MOVIE4Liran.MOV`, title: 'לירן דנינו' },
   ];
 
   return (
