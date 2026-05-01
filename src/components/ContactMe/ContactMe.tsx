@@ -2,7 +2,7 @@ import './ContactMe.css';
 import contactImage from '../../images/ContactMeImage.jpeg';
 import fbLogo from '../../images/Facebook_logo.png';
 import igLogo from '../../images/Instagram_logo.png';
-import ttLogo from '../../images/TikTok-Logo.png';
+import ttLogo from '../../images/TikTokLogo.png';
 
 const ContactMe = () => {
   return (

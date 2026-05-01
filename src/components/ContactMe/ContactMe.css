@@ -99,9 +99,7 @@
   transition: transform 0.3s ease;
 }
 
-.contact-icon-img.tiktok-icon {
-  transform: scale(2.5); /* Slightly more boost for TikTok */
-}
+
 
 .contact-text {
   display: flex;

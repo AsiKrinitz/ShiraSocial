@@ -10,6 +10,9 @@ import ContactMe from './components/ContactMe/ContactMe';
 import Reviews from './components/Reviews/Reviews';
 import NotFound from './components/NotFound/NotFound';
 import { AsiFooter } from './components/AsiFooter/AsiFooter';
+import { Accessibility } from './components/Accessibility/Accessibility';
+import { PrivacyPolicy } from './components/PrivacyPolicy/PrivacyPolicy';
+import { AccessibilityWidget } from './components/AccessibilityWidget/AccessibilityWidget';
 import './App.css';
 
 function App() {
@@ -28,11 +31,14 @@ function App() {
             <Route path="/shows" element={<SocialShows />} />
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/contact" element={<ContactMe />} />
+            <Route path="/accessibility" element={<Accessibility />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
         <AsiFooter />
+        <AccessibilityWidget />
       </div>
     </Router>
   );
