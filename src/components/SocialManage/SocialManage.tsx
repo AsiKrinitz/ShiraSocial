@@ -15,7 +15,8 @@ const SocialManage = () => {
       <div className="glass-content manage-content">
         <h1 className="manage-title">ניהול סושיאל / UGC</h1>
         <p className="manage-subtitle">
-          לפניכם הצצה למגוון תוצרי וידאו ו-UGC שיצרתי בשיתוף פעולה עם מותגים וחברות מובילות, המשלבים יצירתיות, דיוק ואסטרטגיה לטובת קידום העסק.
+          לפניכם הצצה למגוון תוצרי וידאו ו-UGC 
+          שיצרתי עבור מותגים וחברות מובילות, המשלבים יצירתיות, דיוק ואסטרטגיה לטובת קידום העסק.
         </p>
         
         <div className="videos-grid">
